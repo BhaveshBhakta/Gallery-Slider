@@ -18,10 +18,15 @@ nav{
 }
 
 nav a{
-    padding: 2em;
+    /* padding: 2em;
     text-decoration: none;
     color: #fff;
-    font-size: 5vh;
+    font-size: 5vh; */
+
+    padding: 1em; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 4vh; 
     transform: scale(1.1);
 }
 
@@ -37,8 +42,9 @@ nav a{
 
 .slider-item{
     display: inline-block;
-    width: 40vw;
-    padding: 3vw;
+    padding: 3vw; 
+    width: 40vw; 
+
 }
 
 .slider-item figure{
@@ -72,3 +78,35 @@ nav a{
     transform-origin: 0.0;
 }
     
+
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 4vh; 
+        padding: 0.5em;
+    }
+
+    .slider-item {
+        width: 80vw; 
+    }
+
+    .slider-progress {
+        width: 90vw;
+        margin: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 3.5vh;
+    }
+
+    .slider-item {
+        width: 90vw;
+    }
+
+    .slider-progress {
+        width: 100vw;
+        margin: 0.5em;
+    }
+}
