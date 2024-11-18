@@ -1,3 +1,3 @@
 # Gallery-Slider
 
-Gallery slider using vanilla js 
+Gallery slider using vanilla js.
